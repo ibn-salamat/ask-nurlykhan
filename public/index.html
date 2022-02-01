@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>suraq qoi bala</title>
+    <link rel="stylesheet" href="assets/main.css">
+
+</head>
+<body>
+    
+
+    <header>
+        
+        <div class="starter">
+        <h1>ask nurlykhan 😁</h1>
+        </div>
+
+        <section class="main">
+
+            <div class="ask-form-wrap">
+                <form action="" class="ask-form">
+    
+    
+                    <label for="name-asker" class="label-name-asker">
+                        <p>Имя</p>
+                        <input type="text" class="name" id="name-asker" minlength="3" maxlength="20">
+                     </label>
+    
+                    <label for="text-question">
+                        <p>Вопрос</p>
+                        <textarea type="text" class="question" id="text-question" required minlength="5"> </textarea>   
+                    </label>
+
+   
+                    <div class="submit-wrap">
+
+                        <div class="boxes">
+                            <input type="checkbox" id="anonym">
+                            <label for="anonym">Анон</label>
+                          </div>
+                          
+
+                    <button id="btn-send-question">Отправить</button>
+                </div>
+    
+                </form>
+            </div>
+    
+      
+    
+        </section>
+    </header>
+
+
+
+    <section class="content">
+        <div class="content-wrap">
+        <div class="questions">
+            <!-- 
+            <div class="question-wrap" data-id="0">
+                <div class="header-question">
+                    <p>Аноним</p>
+                    <p>9 апрель 2019 11:59</p>
+                </div>
+                <div class="body-question">
+                    <p class="question">Что ты имеешь в виду?</p>
+                </div>
+                <div class="body-answer">
+                    <p class="answer">Ничего</p>
+                </div>
+            </div>
+            -->
+        </div>
+        <div class="info-questions"></div>
+        </div>
+              <!-- Error modal -->
+              <div class="error-modal"></div>
+        <div class="load-loader"></div>
+    </section>
+
+    <footer>
+        <p>made with ❤️ by <a href="http://nurlykhan06.github.io" target="_blank">NURLYKHAN</a> </p>
+    </footer>
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+
+<script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.0.2/firebase-database.js"></script>
+<script src="assets/main.js"></script>
+</body>
+</html>
